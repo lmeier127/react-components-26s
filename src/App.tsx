@@ -1,10 +1,14 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Welcome from "./Welcome";
 import PizzaToppings from "./PizzaToppings";
 import TsteeleComponent from "./TsteeleComponent";
-import Welcome from "./Welcome";
 import ThamiltonComponent from "./ThamiltonComponent";
+import DweiseComponent from './DweiseAccordionComponent';
+import CBaresComponent from './CBaresComponent';
+import ZsmuckerbryanComponent from './ZsmuckerbryanComponent';
 import MrooneyButton from './mrooneyButton';
+
 
 const App = () => {
   return (
@@ -14,6 +18,9 @@ const App = () => {
       <TsteeleComponent />
       <Welcome />
       <ThamiltonComponent />
+      <DweiseComponent />
+      <CBaresComponent />
+      <ZsmuckerbryanComponent />
       <MrooneyButton />
     </div>
   );
