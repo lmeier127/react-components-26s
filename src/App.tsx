@@ -14,6 +14,7 @@ const App = () => {
   return (
     <div className="m-3">
       <h1>React Components</h1>
+      <LmeierComponent />
       <PizzaToppings />
       <TsteeleComponent />
       <Welcome />
@@ -22,7 +23,6 @@ const App = () => {
       <CBaresComponent />
       <ZsmuckerbryanComponent />
       <MrooneyButton />
-      <LmeierComponent />
     </div>
   );
 };
